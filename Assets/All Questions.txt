@@ -1,0 +1,1 @@
+{"quests":[{"quest":"Take your bra off","lvl":3,"isDare":true,"used":false},{"quest":"Kiss PLAYER","lvl":2,"isDare":true,"used":false},{"quest":"Drink","lvl":1,"isDare":true,"used":false}],"players":[{"name":"Hubert","isMale":true},{"name":"Damian","isMale":true},{"name":"Lena","isMale":false},{"name":"Natalia","isMale":false}]}
