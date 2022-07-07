@@ -1,0 +1,4 @@
+We don't gather or share any information about you whatsoever.
+You're quests are saved on your device in one txt file in json, thus you may need to agree for using your storage.
+This app do not include any playments or adds.
+Everything was written by myself from scrach and it is open sorce, free to use.
