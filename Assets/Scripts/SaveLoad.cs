@@ -4,12 +4,13 @@ using System.Collections.Generic;
 
 public class SaveLoad : MonoBehaviour
 {
-    static string path = "C:/Users/hagel/Documents/Unity/Bottle/Assets/All Questions.txt";
+    static string path = "All Questions.txt";
     public static void Save()
     {
         SaveData sd = new SaveData();
         string json = JsonUtility.ToJson(sd);
         File.WriteAllText(path, json);
+        Debug.Log("Saved");
     }
     public static void Load()
     {
@@ -20,6 +21,7 @@ public class SaveLoad : MonoBehaviour
 
             Game.instance.quests = sd.quests;
             Game.instance.players = sd.players;
+            Debug.Log("Loaded");
         }
         else
         {

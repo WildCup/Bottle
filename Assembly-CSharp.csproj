@@ -65,9 +65,9 @@
     <Compile Include="Assets\Scripts\AddQuest.cs" />
     <Compile Include="Assets\Scripts\AddPlayer.cs" />
     <Compile Include="Assets\Scripts\START.cs" />
+    <Compile Include="Assets\Scripts\Colors.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\All Questions.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

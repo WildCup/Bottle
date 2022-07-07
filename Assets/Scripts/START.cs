@@ -9,7 +9,7 @@ public class START : MonoBehaviour
         QualitySettings.vSyncCount = 0;  // VSync must be disabled
         Application.targetFrameRate = 60;
 
-        Debug.Log("Application.targetFrameRate is set to 60");
+        //Debug.Log("Application.targetFrameRate is set to 60");
     }
 
 }

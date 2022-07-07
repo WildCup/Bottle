@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/AddPlayer.cs"
 "Assets/Scripts/AddQuest.cs"
+"Assets/Scripts/Colors.cs"
 "Assets/Scripts/Game.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Player.cs"

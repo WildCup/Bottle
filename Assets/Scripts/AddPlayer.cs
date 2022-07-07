@@ -3,13 +3,13 @@ using UnityEngine.UI;
 
 public class AddPlayer : MonoBehaviour
 {
-    public bool isPlayer;
     public Text gender;
     public Color cMan;
     public Color cWoman;
+
     public Image image;
-    //button gender image
     public Button genderButton;
+
     public Sprite manSprite;
     public Sprite womanSprite;
 
@@ -42,7 +42,11 @@ public class AddPlayer : MonoBehaviour
     }
     public void UpdatePlayer()
     {
-        if (!player.isMale) ChangeGender();
+        if (!player.isMale)
+        {
+            player.isMale = true;
+            ChangeGender();
+        }
         inputField.text = player.name;
     }
 }
